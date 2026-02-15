@@ -5,13 +5,12 @@ from typing import Dict, Any, Deque, Set
 import uuid
 import hashlib
 
-from universal_core.core import UniversalCognitiveCore
-from .config import CoreConfig
-from .logging_config import setup_logging
-from .models import Concept, Rule, SystemMetrics
-from .similarity import get_similarity
-from .decay import exponential_decay_factor
-from .persistence import JsonCheckpointStore
+from config import CoreConfig
+from logging_config import setup_logging
+from models import Concept, Rule, SystemMetrics
+from similarity import get_similarity
+from decay import exponential_decay_factor
+from persistence import JsonCheckpointStore
 
 logger = setup_logging("UniversalMind")
 

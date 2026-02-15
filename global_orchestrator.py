@@ -5,9 +5,9 @@ import threading
 import time
 import logging
 
-from universal_core.core import UniversalCognitiveCore
-from universal_core.config import CoreConfig
-from .stock_agent import StockAgent, StockDataSource
+from core import UniversalCognitiveCore
+from config import CoreConfig
+from stock_agent import StockAgent, StockDataSource
 
 logger = logging.getLogger("StockOrchestrator")
 
