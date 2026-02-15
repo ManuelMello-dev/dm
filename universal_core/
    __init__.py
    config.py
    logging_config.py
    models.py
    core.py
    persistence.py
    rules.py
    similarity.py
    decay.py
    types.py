@@ -1,0 +1,11 @@
+universal_core/
+    __init__.py
+    config.py
+    logging_config.py
+    models.py
+    core.py
+    persistence.py
+    rules.py
+    similarity.py
+    decay.py
+    types.py
