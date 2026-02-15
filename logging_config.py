@@ -2,6 +2,7 @@ import logging
 from logging.handlers import TimedRotatingFileHandler
 from pathlib import Path
 import os
+import sys
 
 def setup_logging(name: str = "UniversalMind") -> logging.Logger:
     logger = logging.getLogger(name)
@@ -15,7 +16,7 @@ def setup_logging(name: str = "UniversalMind") -> logging.Logger:
         "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
     )
 
-    console = logging.StreamHandler()
+    console = logging.StreamHandler(sys.stdout)
     console.setFormatter(fmt)
     logger.addHandler(console)
 
