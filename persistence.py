@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from typing import Dict, Any
-from .models import Concept, Rule, SystemMetrics
+from models import Concept, Rule, SystemMetrics
 
 class JsonCheckpointStore:
     def __init__(self, path: Path):
