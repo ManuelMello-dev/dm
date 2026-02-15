@@ -1,4 +1,4 @@
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from pathlib import Path
 
 @dataclass
@@ -12,5 +12,5 @@ class CoreConfig:
     rule_min_support: int = 2
     goal_generation_interval: int = 50
     checkpoint_interval: int = 100
-    checkpoint_dir: Path = field(default_factory=lambda: Path("./checkpoints"))
+    checkpoint_dir: Path = Path("./checkpoints")
     max_rules_per_observation: int = 5
