@@ -9,10 +9,10 @@ class Concept:
     domain: str
     signature: Dict[str, float]
     examples: Deque[Dict[str, Any]] = field(default_factory=lambda: deque(maxlen=100))
-    created_at: float = field(default_factory=lambda: datetime.now(timezone.utc).timestamp)
-    last_updated: float = field(default_factory=lambda: datetime.now(timezone.utc).timestamp)
-    first_seen: float = field(default_factory=lambda: datetime.now(timezone.utc).timestamp)
-    last_seen: float = field(default_factory=lambda: datetime.now(timezone.utc).timestamp)
+    created_at: float = field(default_factory=lambda: datetime.now(timezone.utc).timestamp())
+    last_updated: float = field(default_factory=lambda: datetime.now(timezone.utc).timestamp())
+    first_seen: float = field(default_factory=lambda: datetime.now(timezone.utc).timestamp())
+    last_seen: float = field(default_factory=lambda: datetime.now(timezone.utc).timestamp())
     observation_span_hours: float = 0.0
     observation_count: int = 0
     distinct_time_windows: int = 0
@@ -34,6 +34,7 @@ class Concept:
 
     def to_dict(self) -> Dict[str, Any]:
         d = asdict(self)
+        d["examples"] = list(self.examples)
         d["example_count"] = len(self.examples)
         d["signature"] = dict(self.signature)
         return d
@@ -45,8 +46,8 @@ class Rule:
     consequent: str
     confidence: float
     support: int = 1
-    created_at: float = field(default_factory=lambda: datetime.now(timezone.utc).timestamp)
-    last_seen: float = field(default_factory=lambda: datetime.now(timezone.utc).timestamp)
+    created_at: float = field(default_factory=lambda: datetime.now(timezone.utc).timestamp())
+    last_seen: float = field(default_factory=lambda: datetime.now(timezone.utc).timestamp())
     observation_span_hours: float = 0.0
 
     def update_temporal(self, current_time: float) -> None:
