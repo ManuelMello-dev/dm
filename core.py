@@ -5,6 +5,7 @@ from typing import Dict, Any, Deque, Set
 import uuid
 import hashlib
 
+from universal_core.core import UniversalCognitiveCore
 from .config import CoreConfig
 from .logging_config import setup_logging
 from .models import Concept, Rule, SystemMetrics
