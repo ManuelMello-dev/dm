@@ -1,0 +1,794 @@
+{
+  "iteration": 100,
+  "concepts": {
+    "concept_ee203ab2330046bca2450f95776f7812": {
+      "id": "concept_ee203ab2330046bca2450f95776f7812",
+      "domain": "stock:AAPL",
+      "signature": {
+        "price": 99.77879864165057,
+        "volume": 4872.802844981187
+      },
+      "examples": [
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143910.566924,
+          "price": 99.77879864165057,
+          "volume": 4872.802844981187,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143911.567045,
+          "price": 100.57368237649652,
+          "volume": 1487.034504395051,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143912.567181,
+          "price": 100.97295011710303,
+          "volume": 5914.14090493382,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143913.56731,
+          "price": 99.98744285099735,
+          "volume": 5342.336738507283,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143914.567484,
+          "price": 99.06417259792737,
+          "volume": 7003.430469690147,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143915.567625,
+          "price": 99.25463442854773,
+          "volume": 2143.019107125797,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143916.567765,
+          "price": 100.56202485398347,
+          "volume": 4256.090916445379,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143917.567896,
+          "price": 99.01821990421541,
+          "volume": 5998.913170349138,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143918.568068,
+          "price": 99.51244597533244,
+          "volume": 9921.381932251306,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143919.568204,
+          "price": 99.48349960939775,
+          "volume": 9981.731568656274,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143920.568326,
+          "price": 99.39711841484527,
+          "volume": 7674.142309779279,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143921.568515,
+          "price": 100.29915645732825,
+          "volume": 6801.710628670623,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143922.568669,
+          "price": 100.5812584505052,
+          "volume": 5594.414133560761,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143923.568822,
+          "price": 99.17385237387002,
+          "volume": 8852.667355540478,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143924.569009,
+          "price": 99.65021113309108,
+          "volume": 3998.23068220383,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143925.569135,
+          "price": 99.27164237352156,
+          "volume": 6516.938146390273,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143926.569277,
+          "price": 99.99340451492579,
+          "volume": 6111.061107710354,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143927.569428,
+          "price": 100.66998798938857,
+          "volume": 7216.090556327255,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143928.569581,
+          "price": 100.7268848185254,
+          "volume": 3004.3287735940376,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143929.569723,
+          "price": 100.36820250124657,
+          "volume": 5242.948401140135,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143930.569851,
+          "price": 99.79408879440328,
+          "volume": 7094.81234556411,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143931.569978,
+          "price": 99.73168011054776,
+          "volume": 7844.421641467878,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143932.570127,
+          "price": 99.5722295018908,
+          "volume": 4785.599363260957,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143933.570291,
+          "price": 99.25664553912668,
+          "volume": 8985.83098744943,
+          "domain": "stock:AAPL"
+        },
+        {
+          "symbol": "AAPL",
+          "timestamp": 1771143934.570456,
+          "price": 99.87559394217307,
+          "volume": 9791.924218302333,
+          "domain": "stock:AAPL"
+        }
+      ],
+      "created_at": 1771143910.567505,
+      "last_updated": 1771143934.570533,
+      "first_seen": 1771143910.567473,
+      "last_seen": 1771143934.570533,
+      "observation_span_hours": 0.006667516695128547,
+      "observation_count": 25,
+      "distinct_time_windows": 1,
+      "confidence": 1.0,
+      "example_count": 25
+    },
+    "concept_a451af4807104f30a4b27769ba8ceac7": {
+      "id": "concept_a451af4807104f30a4b27769ba8ceac7",
+      "domain": "stock:TSLA",
+      "signature": {
+        "price": 99.53539302343381,
+        "volume": 1065.8923571161504
+      },
+      "examples": [
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143910.567085,
+          "price": 99.53539302343381,
+          "volume": 1065.8923571161504,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143911.567326,
+          "price": 99.15199578233424,
+          "volume": 2189.8974482132717,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143912.567458,
+          "price": 99.1873347818095,
+          "volume": 1022.1617382383725,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143913.56755,
+          "price": 100.34402965730071,
+          "volume": 7691.460911261895,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143914.567696,
+          "price": 99.64480278599648,
+          "volume": 3432.4749556790775,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143915.567902,
+          "price": 100.782533794044,
+          "volume": 8683.038215753804,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143916.568001,
+          "price": 99.98026810696227,
+          "volume": 2238.361639011591,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143917.568097,
+          "price": 99.49727435410043,
+          "volume": 2439.7641445535573,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143918.568355,
+          "price": 99.90799358161908,
+          "volume": 9896.654846607045,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143919.568456,
+          "price": 100.30890101994291,
+          "volume": 2347.7651819247885,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143920.568545,
+          "price": 100.02220729278068,
+          "volume": 4096.725142120853,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143921.568747,
+          "price": 99.63711173677807,
+          "volume": 5214.058252949137,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143922.568905,
+          "price": 100.97880169127083,
+          "volume": 7405.317167675712,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143923.569114,
+          "price": 99.07202471384001,
+          "volume": 3441.465286339042,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143924.569313,
+          "price": 99.91384841702319,
+          "volume": 7651.499289114546,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143925.569404,
+          "price": 99.96617558986814,
+          "volume": 1037.6683867807767,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143926.569603,
+          "price": 99.89070229434434,
+          "volume": 2614.5666098236293,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143927.56973,
+          "price": 100.48647223829978,
+          "volume": 9862.108724066034,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143928.569863,
+          "price": 99.91086434904854,
+          "volume": 8333.078859014993,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143929.570011,
+          "price": 99.12938397652887,
+          "volume": 7955.393609304285,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143930.570149,
+          "price": 99.08000067602913,
+          "volume": 1615.7509018540186,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143931.570242,
+          "price": 100.5259292903928,
+          "volume": 5886.674688304727,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143932.570472,
+          "price": 99.99715258358914,
+          "volume": 8915.369722230122,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143933.570623,
+          "price": 99.59265375287534,
+          "volume": 7165.256461127357,
+          "domain": "stock:TSLA"
+        },
+        {
+          "symbol": "TSLA",
+          "timestamp": 1771143934.570775,
+          "price": 99.31666914898206,
+          "volume": 5506.3614381881525,
+          "domain": "stock:TSLA"
+        }
+      ],
+      "created_at": 1771143910.567809,
+      "last_updated": 1771143934.570806,
+      "first_seen": 1771143910.567783,
+      "last_seen": 1771143934.570806,
+      "observation_span_hours": 0.006667506363656785,
+      "observation_count": 25,
+      "distinct_time_windows": 1,
+      "confidence": 1.0,
+      "example_count": 25
+    },
+    "concept_8c929d85a93240e8b0caeac4f3ec9b1d": {
+      "id": "concept_8c929d85a93240e8b0caeac4f3ec9b1d",
+      "domain": "stock:MSFT",
+      "signature": {
+        "price": 99.23430662140461,
+        "volume": 7875.58223064172
+      },
+      "examples": [
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143910.567207,
+          "price": 99.23430662140461,
+          "volume": 7875.58223064172,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143911.567405,
+          "price": 99.27855011069323,
+          "volume": 8077.869481074094,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143912.567554,
+          "price": 100.2961609642619,
+          "volume": 5079.709960320268,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143913.567641,
+          "price": 99.7546404169144,
+          "volume": 6439.150609124469,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143914.567794,
+          "price": 100.53870172222739,
+          "volume": 5216.224494008396,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143915.568033,
+          "price": 99.65922717802432,
+          "volume": 8814.93598687767,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143916.568124,
+          "price": 100.79958517269823,
+          "volume": 2852.0084821621713,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143917.568215,
+          "price": 99.13327523853873,
+          "volume": 5661.600696362942,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143918.568489,
+          "price": 99.62937164857799,
+          "volume": 6151.715197275817,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143919.56859,
+          "price": 100.06887405843128,
+          "volume": 7040.091617214851,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143920.568681,
+          "price": 100.1674727742416,
+          "volume": 3112.8104543882296,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143921.56878,
+          "price": 100.49884187950525,
+          "volume": 8375.748921273624,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143922.568878,
+          "price": 100.2531939744862,
+          "volume": 9825.438718440288,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143923.568907,
+          "price": 99.61077108537218,
+          "volume": 9179.753435443905,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143924.569084,
+          "price": 100.62383503835282,
+          "volume": 3198.067616225265,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143925.569185,
+          "price": 100.76096168683921,
+          "volume": 4545.344043091393,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143926.569368,
+          "price": 100.66319850808729,
+          "volume": 4942.470538285812,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143927.569508,
+          "price": 99.44153657130238,
+          "volume": 7756.404280146548,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143928.569648,
+          "price": 99.36793247948984,
+          "volume": 9919.417373953635,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143929.569793,
+          "price": 99.04548470573832,
+          "volume": 7874.562697302827,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143930.569902,
+          "price": 99.28508310072814,
+          "volume": 3156.2587081471875,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143931.570041,
+          "price": 100.23910571169885,
+          "volume": 3945.188715988384,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143932.570202,
+          "price": 99.08270712937903,
+          "volume": 8974.324210660145,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143933.570396,
+          "price": 99.9043301775219,
+          "volume": 3778.707416845572,
+          "domain": "stock:MSFT"
+        },
+        {
+          "symbol": "MSFT",
+          "timestamp": 1771143934.570657,
+          "price": 99.7179159011511,
+          "volume": 1449.2869253172373,
+          "domain": "stock:MSFT"
+        }
+      ],
+      "created_at": 1771143910.568106,
+      "last_updated": 1771143934.570692,
+      "first_seen": 1771143910.568076,
+      "last_seen": 1771143934.570692,
+      "observation_span_hours": 0.006667393379741245,
+      "observation_count": 25,
+      "distinct_time_windows": 1,
+      "confidence": 1.0,
+      "example_count": 25
+    },
+    "concept_d34dae418340457986d44105352c3b68": {
+      "id": "concept_d34dae418340457986d44105352c3b68",
+      "domain": "stock:NVDA",
+      "signature": {
+        "price": 100.96678908419732,
+        "volume": 2543.137164030304
+      },
+      "examples": [
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143910.567327,
+          "price": 100.96678908419732,
+          "volume": 2543.137164030304,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143911.567823,
+          "price": 100.21025099657115,
+          "volume": 6332.991188823015,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143912.567909,
+          "price": 99.82167478229034,
+          "volume": 9328.18432266011,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143913.567994,
+          "price": 99.6628412214018,
+          "volume": 2800.765293608346,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143914.568084,
+          "price": 99.8574075183821,
+          "volume": 9368.0485069837,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143915.568177,
+          "price": 99.81589400589749,
+          "volume": 7416.141260408433,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143916.568268,
+          "price": 100.13227076170506,
+          "volume": 6797.521397086795,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143917.568357,
+          "price": 100.88825940152428,
+          "volume": 5601.692855339592,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143918.568604,
+          "price": 100.5025273634281,
+          "volume": 5221.082535436576,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143919.568691,
+          "price": 100.68053103127544,
+          "volume": 8834.04490651235,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143920.568776,
+          "price": 100.81521417832057,
+          "volume": 4754.411967628184,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143921.568936,
+          "price": 99.1411180496448,
+          "volume": 7064.22473486387,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143922.569088,
+          "price": 100.26285923049508,
+          "volume": 3644.139518791161,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143923.569227,
+          "price": 99.49471872624163,
+          "volume": 8655.818396261351,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143924.569358,
+          "price": 99.55055911985693,
+          "volume": 1033.261252433483,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143925.569494,
+          "price": 100.3083245233535,
+          "volume": 6098.179590009014,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143926.569697,
+          "price": 99.1097081589214,
+          "volume": 6975.452789746128,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143927.569822,
+          "price": 99.8589895376926,
+          "volume": 8563.704427653453,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143928.569955,
+          "price": 99.58542659445438,
+          "volume": 9348.189827793818,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143929.570101,
+          "price": 99.95282398313674,
+          "volume": 7090.958044339024,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143930.570239,
+          "price": 99.40000417147613,
+          "volume": 7103.9634610217745,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143931.570323,
+          "price": 99.32796535088521,
+          "volume": 5389.52720233274,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143932.570573,
+          "price": 99.31538656419052,
+          "volume": 2582.092257098468,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143933.570656,
+          "price": 99.31485257512463,
+          "volume": 6640.055896145834,
+          "domain": "stock:NVDA"
+        },
+        {
+          "symbol": "NVDA",
+          "timestamp": 1771143934.570866,
+          "price": 100.60700028988445,
+          "volume": 6588.792662435497,
+          "domain": "stock:NVDA"
+        }
+      ],
+      "created_at": 1771143910.56834,
+      "last_updated": 1771143934.570905,
+      "first_seen": 1771143910.568313,
+      "last_seen": 1771143934.570905,
+      "observation_span_hours": 0.006667386690775553,
+      "observation_count": 25,
+      "distinct_time_windows": 1,
+      "confidence": 1.0,
+      "example_count": 25
+    }
+  },
+  "rules": {},
+  "metrics": {
+    "concepts_formed": 4,
+    "concepts_decayed": 0,
+    "rules_learned": 0,
+    "transfers_made": 12,
+    "goals_generated": 2,
+    "total_observations": 100,
+    "errors": 0,
+    "uptime_seconds": 0.0,
+    "last_observation_time": 1771143934.570905,
+    "symbols_tracked": 0
+  }
+}

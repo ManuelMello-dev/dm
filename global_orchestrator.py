@@ -1,6 +1,7 @@
 from __future__ import annotations
 from queue import Queue, Empty
 from typing import Dict, Any, List
+from datetime import datetime, timezone
 import threading
 import time
 import logging
@@ -73,8 +74,6 @@ class GlobalStockOrchestrator:
         logger.info("GlobalStockOrchestrator stopped")
 
     def get_metrics(self) -> Dict[str, Any]:
-        from datetime import datetime, timezone
-        
         metrics_dict = self.core.metrics.to_dict()
         
         # Calculate uptime_seconds from start_time
