@@ -5,7 +5,10 @@ import threading
 import time
 import logging
 
-from core import UniversalCognitiveCore
+try:
+    from core import UniversalCognitiveCore
+except ImportError:
+    from universal_core.core import UniversalCognitiveCore
 from config import CoreConfig
 from stock_agent import StockAgent, StockDataSource
 

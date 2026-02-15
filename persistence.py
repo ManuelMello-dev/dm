@@ -1,7 +1,10 @@
 import json
 from pathlib import Path
 from typing import Dict, Any
-from models import Concept, Rule, SystemMetrics
+try:
+    from models import Concept, Rule, SystemMetrics
+except ImportError:
+    from universal_core.models import Concept, Rule, SystemMetrics
 
 class JsonCheckpointStore:
     def __init__(self, path: Path):

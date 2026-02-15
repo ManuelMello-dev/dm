@@ -5,12 +5,20 @@ from typing import Dict, Any, Deque, Set
 import uuid
 import hashlib
 
-from config import CoreConfig
-from logging_config import setup_logging
-from models import Concept, Rule, SystemMetrics
-from similarity import get_similarity
-from decay import exponential_decay_factor
-from persistence import JsonCheckpointStore
+try:
+    from config import CoreConfig
+    from logging_config import setup_logging
+    from models import Concept, Rule, SystemMetrics
+    from similarity import get_similarity
+    from decay import exponential_decay_factor
+    from persistence import JsonCheckpointStore
+except ImportError:
+    from universal_core.config import CoreConfig
+    from universal_core.logging_config import setup_logging
+    from universal_core.models import Concept, Rule, SystemMetrics
+    from universal_core.similarity import get_similarity
+    from universal_core.decay import exponential_decay_factor
+    from universal_core.persistence import JsonCheckpointStore
 
 logger = setup_logging("UniversalMind")
 
@@ -205,6 +213,7 @@ class UniversalCognitiveCore:
         self.iteration += 1
         self.metrics.total_observations += 1
         self.metrics.last_observation_time = current_time
+        self.metrics.uptime_seconds = current_time - self.metrics.start_time
 
         try:
             observation["domain"] = domain

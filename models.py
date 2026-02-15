@@ -70,6 +70,7 @@ class SystemMetrics:
     uptime_seconds: float = 0.0
     last_observation_time: float | None = None
     symbols_tracked: int = 0
+    start_time: float = field(default_factory=lambda: datetime.now(timezone.utc).timestamp())
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)
