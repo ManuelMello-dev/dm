@@ -1,6 +1,7 @@
 from __future__ import annotations
 from queue import Queue, Empty
 from typing import Dict, Any, List
+from datetime import datetime, timezone
 import threading
 import time
 import logging
@@ -76,7 +77,17 @@ class GlobalStockOrchestrator:
         logger.info("GlobalStockOrchestrator stopped")
 
     def get_metrics(self) -> Dict[str, Any]:
-        return self.core.metrics.to_dict()
+        metrics_dict = self.core.metrics.to_dict()
+        
+        # Calculate uptime_seconds from start_time
+        current_time = datetime.now(timezone.utc).timestamp()
+        metrics_dict['uptime_seconds'] = current_time - self.core.start_time
+        
+        # Calculate symbols_tracked from unique domains
+        active_domains = {c.domain for c in self.core.concepts.values()}
+        metrics_dict['symbols_tracked'] = len(active_domains)
+        
+        return metrics_dict
 
     def get_concepts_snapshot(self) -> Dict[str, Any]:
         return {cid: c.to_dict() for cid, c in self.core.concepts.items()}
